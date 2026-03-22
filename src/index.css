@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neon-cyan: #00ffcc;
+  --color-neon-pink: #ff0066;
+  --color-neon-purple: #9d00ff;
+  --color-neon-blue: #0066ff;
+}
+
+body {
+  background-color: #050505;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.neon-glow-cyan {
+  box-shadow: 0 0 15px rgba(0, 255, 204, 0.4);
+}
+
+.neon-glow-pink {
+  box-shadow: 0 0 15px rgba(255, 0, 102, 0.4);
+}
